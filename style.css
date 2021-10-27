@@ -1,3 +1,51 @@
-.custom{
-    background-color: blueviolet;
+html {
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    min-height: 100%;
+}
+
+.navbar-custom {
+    background-color: #0074be;
+}
+
+.navbar-toggler-custom {
+    background-color: white;
+    border-radius: 90rem;
+    padding-top: 0.25rem;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+    padding-bottom: 0.25rem;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-left: 0rem;  
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .nav-link {
+    color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.navbar-toggler:focus {
+    box-shadow: 0rem 0rem 0rem 0.1rem;
+}
+
+.footer {
+    background: #0074be;
+    color: white;
+    position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 60px;
 }
