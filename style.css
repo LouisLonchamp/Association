@@ -1,11 +1,6 @@
-html {
-    font-family: 'Times New Roman', Times, serif;
-    position: relative;
-    min-height: 100%;
-}
-
 .navbar-custom {
     background-color: #0074be;
+    box-shadow: 0rem 0rem 1rem 0.25rem rgba(0, 0, 0, 0.295);
 }
 
 .navbar-toggler-custom {
@@ -44,8 +39,91 @@ html {
 .footer {
     background: #0074be;
     color: white;
-    position: absolute;
+    position: relative;
         bottom: 0;
         width: 100%;
-        height: 60px;
+        height: 60px;       
+     box-shadow: 0rem 0rem 1rem 0.25rem rgba(0, 0, 0, 0.295);        
+}
+
+.icon-logo {
+    text-align: center;
+    display: flex;
+    width: 100%;
+    padding-top: 0.5rem;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.logoACLF {
+    padding-top: 2rem;;
+    text-align: center;
+}
+
+.phrase-accroche {
+    color:#52b64e!important;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16pt;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.style-question {
+    text-align: center;
+    font-size: 14pt;
+    font-family: "lato", sans-serif;
+    font-weight: bold;
+    text-decoration: underline black;
+}
+
+.image-presentation {
+    text-align: center;
+    padding-top: 2rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.style-titre {
+    color:#0074be!important;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14pt;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: "lato", sans-serif;
+}
+
+.style-paragraphe {
+    color:#848484!important;
+    text-align: center;
+    font-size: 12pt;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: "lato", sans-serif;
+}
+
+.bouton-custom {
+    background-color: #52b64e!important;
+    color: white;
+    font-size: 12pt;
+    font-weight: bold;
+    font-family: "lato", sans-serif;
+    margin-right: 6rem;
+    margin-left: 6rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    position: relative;
+    display: block;
+    text-align: center;
+    border-radius: 20rem;
+    border-style: double;
+    text-decoration: none;
+    box-shadow: 0rem 0rem 0.8rem 0.2rem rgba(0, 0, 0, 0.295);
 }
