@@ -1,3 +1,14 @@
+body {
+    font-family: "lato", sans-serif;
+    background-color: whitesmoke;
+}
+
+.accueil {
+    background-color: white;
+    padding-bottom: 50px;
+    min-height: calc(100vh - 140px);
+}
+
 .navbar-custom {
     background-color: #0074be;
     box-shadow: 0rem 0rem 1rem 0.25rem rgba(0, 0, 0, 0.295);
@@ -11,14 +22,7 @@
     padding-left: 1.25rem;
 }
 
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-    width: 100%;
-    padding-right: var(--bs-gutter-x,.75rem);
-    padding-left: var(--bs-gutter-x,.75rem);
-    margin-left: 0rem;  
-}
-
-.navbar-light .navbar-nav .nav-link.active, .navbar-light .nav-link {
+.navbar, .navbar .navbar-nav .nav-link.active{
     color: white;
 }
 
@@ -27,7 +31,7 @@
     padding-left: 1rem;
 }
 
-.navbar-light .navbar-nav .nav-link {
+.nav-link {
     color: black;
 }
 
@@ -38,11 +42,9 @@
 .footer {
     background: #0074be;
     color: white;
-    position: relative;
-        bottom: 0;
-        width: 100%;
-        height: 60px;       
-     box-shadow: 0rem 0rem 1rem 0.25rem rgba(0, 0, 0, 0.295);        
+    width: 100%;
+    height: 60px;       
+    box-shadow: 0rem 0rem 1rem 0.25rem rgba(0, 0, 0, 0.295);        
 }
 
 .icon-logo {
@@ -61,23 +63,20 @@
 }
 
 .phrase-accroche {
-    color:#52b64e!important;
+    color:#52b64e;
     text-align: center;
     font-weight: bold;
     font-size: 16pt;
-    margin-bottom: 2rem;
     padding-top: 1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .style-question {
     text-align: center;
     font-size: 14pt;
-    font-family: "lato", sans-serif;
     font-weight: bold;
     text-decoration: underline black;
+    line-height: 3.5rem;
 }
 
 .image-presentation {
@@ -88,42 +87,27 @@
 }
 
 .style-titre {
-    color:#0074be!important;
+    color:#0074be;
     text-align: center;
     font-weight: bold;
     font-size: 14pt;
     padding-top: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    font-family: "lato", sans-serif;
 }
 
 .style-paragraphe {
-    color:#848484!important;
+    color:#848484;
     text-align: center;
     font-size: 12pt;
     padding-top: 1rem;
     padding-left: 2rem;
     padding-right: 2rem;
-    font-family: "lato", sans-serif;
 }
 
 .bouton-custom {
-    background-color: #52b64e!important;
-    color: white;
-    font-size: 12pt;
-    font-weight: bold;
-    font-family: "lato", sans-serif;
-    margin-right: 6rem;
-    margin-left: 6rem;
-    margin-bottom: 2rem;
-    margin-top: 1rem;
-    position: relative;
-    display: block;
-    text-align: center;
+    background-color: #52b64e;
     border-radius: 20rem;
-    border-style: double;
-    text-decoration: none;
     box-shadow: 0rem 0rem 0.8rem 0.2rem rgba(0, 0, 0, 0.295);
 }
 
@@ -135,7 +119,6 @@
     text-align: center;
     font-weight: bold;
     font-size: 12pt;
-    font-family: "lato", sans-serif;
 }
 
 .card-img-overlay {
@@ -150,7 +133,7 @@
     text-align: center;
     font-weight: bold;
     font-size: 12pt;
-    font-family: "lato", sans-serif;
+    
 }
 
 .separation {
